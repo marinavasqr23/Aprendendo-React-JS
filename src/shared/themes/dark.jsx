@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material';
 import { purple } from '@mui/material/colors';
 
-export const ColorTheme = createTheme({
+export const DarkTheme = createTheme({
   palette: {
     primary: {
       main: purple[700],
@@ -16,8 +16,8 @@ export const ColorTheme = createTheme({
       contrastText: '#FFFFFF',
     },
     background: {
-      paper: '#FFFFFF',
-      default: '#B0C4DE',
+      paper: '#191970',
+      default: '#1C1C1C',
     },
   },
 });
